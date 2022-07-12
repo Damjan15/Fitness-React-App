@@ -1,6 +1,14 @@
+import { Box } from "@mui/material"
+import { HeroBanner } from "../components"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <Box>
+      {/* HeroBanner */}
+      <HeroBanner />
+      {/* SearchExercises */}
+      {/* Exercises */}
+    </Box>
   )
 }
 
