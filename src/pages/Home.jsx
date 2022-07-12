@@ -10,11 +10,8 @@ const Home = () => {
 
   return (
     <Box>
-      {/* HeroBanner */}
       <HeroBanner />
-      {/* SearchExercises */}
       <SearchExercises exercises={exercises} setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
-      {/* Exercises */}
       <Exercises exercises={exercises} bodyPart={bodyPart} setExercises={setExercises} />
     </Box>
   )
